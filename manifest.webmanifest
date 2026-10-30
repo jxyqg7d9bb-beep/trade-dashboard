@@ -1,0 +1,21 @@
+{
+  "name": "TRADE 三軌實驗",
+  "short_name": "TRADE",
+  "description": "港股美股機械規則 / 實時 / AI 三軌模擬交易儀表板",
+  "start_url": "./dashboard.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
+  "lang": "zh-Hant-HK",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "圖表", "url": "./dashboard.html#charts" },
+    { "name": "紀錄", "url": "./dashboard.html#log" }
+  ]
+}
